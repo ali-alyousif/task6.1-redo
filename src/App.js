@@ -54,13 +54,13 @@ class App extends Component {
         <header className="newsletter-header">
           <Row>
             <i className="material-icons">email</i>
-            <h1>Simple React Newsletter Tutorial</h1>
+            <h1>Icloud Welcome Dash</h1>
           </Row>
         </header>
         <section className="newsletter-content">
           <Row>
             <Col span={24}>
-              <p className="lead-txt">Subscribe to my awesome newsletter or <span className="txt-highlight">suffer</span>! Mwhahaha! Just kidding lolz :)</p>
+              <p className="lead-txt">Welcome to Icloud Platfoem <span className="txt-highlight">there is</span>! more we offer here :)</p>
               {this.state.loading
                 ? <Loading message="Working on it..." />
                 : <NewsletterForm handleSendEmail={this.handleSendEmail} handleOnChangeEmail={this.handleOnChangeEmail} email={this.state.email} />
@@ -69,7 +69,7 @@ class App extends Component {
           </Row>
         </section>
         <footer className="newsletter-footer">
-          React Newsletter 2017
+          React iCloud Newsletter 2020
         </footer>
       </div>
     );
